@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+header ul li img {
+    height: 50px;
+    width: 50px;
+    display: flex;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    background-color: rgb(33,28,44);
+}
+
+.container-right {
+    height: 500px;
+    width: 500px;
+
+    padding: 25px;
+}
+
+.container-left {
+    height: 500px;
+    width: 500px;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    width: 400px;
+    margin-top: 25px;
+}
+
+.container-right span {
+    color:#888888;
+}
+
+.container-right p {
+    color: white;
+    width: 300px;
+}
+
+.container-right button {
+    background-color: yellow;
+    padding: 20px;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.container-right button:hover {
+    box-shadow: 0 0 15px white;
+    transform: translateY(-5px);
+}
+
+.container-left img {
+    width: 350px;
+    height: 500px;
+    transform: rotate(20deg);
+}
+
+.container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-descr {
+    color: white;
+    width: 200px;
+
+}
+
+.review-descr div {
+    background-color: #473E52;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.container-review {
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    gap: 50px 150px;
+}
+
